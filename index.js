@@ -99,5 +99,3 @@ app.delete('/users/:id', deleteUser);
 
 
 
-
-app.listen(6000, ()=> console.log('server up and running'));
