@@ -12,7 +12,7 @@ const {DataTypes} = Sequelize;
 
 
 const db = new Sequelize('crud_db', 'root','',{
-    host: 'localhost',
+    host: 'https://vercelback-tau.vercel.app/',
     dialect: 'mysql'
 });
 
